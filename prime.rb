@@ -1,14 +1,14 @@
-prime?(number)
-  num = 2 
-  if number > 1 
-    range = (num..number-1).to_a 
-  range.none? do |tests|
-    number % tests == 0 
-  end
-else 
-  false 
-end 
-end 
+#?(number)
+#num = 2 
+#if number > 1 
+#range = (num..number-1).to_a 
+#range.none? do |tests|
+#number % tests == 0 
+#end
+# 
+#false 
+# 
+# 
 
 def prime?(number)
   start = 2
