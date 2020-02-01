@@ -1,3 +1,3 @@
 prime?(number)
   num = 2 
-  if num > 
+  if number > 1 
